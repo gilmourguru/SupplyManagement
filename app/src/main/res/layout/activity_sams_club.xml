@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sams_club"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sutureexpress.dc.supplymanagement.SamsClub">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_sams_club"
+            android:layout_gravity="center"
+            android:layout_marginTop="48dp"
+            android:scaleX="3"
+            android:scaleY="3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:layout_marginTop="48dp"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:text="In this module we will keep track of Sam's Club supplies such as food stuffs, cleaning supplies and toiletries. Maybe eventually this can link to the Easy Reorder option at SamsClub.com"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

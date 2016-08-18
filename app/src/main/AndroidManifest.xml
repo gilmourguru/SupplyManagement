@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sutureexpress.dc.supplymanagement">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login"
+            android:label="Supply App Login"
+            android:parentActivityName=".SupplyHome"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".SplashScreen"
+            android:label="SE Supply Management"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SupplyHome"
+            android:label="Supply Home"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BoxCount"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/title_box_count"
+            android:parentActivityName="com.sutureexpress.dc.supplymanagement.SupplyHome"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sutureexpress.dc.supplymanagement.SupplyHome" />
+        </activity>
+        <activity
+            android:name=".ReceiveSupplies"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/title_recv_supplies"
+            android:parentActivityName="com.sutureexpress.dc.supplymanagement.SupplyHome"
+            android:theme="@style/AppTheme"  >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sutureexpress.dc.supplymanagement.SupplyHome" />
+        </activity>
+        <activity
+            android:name=".SamsClub"
+            android:icon="@mipmap/ic_sams_club"
+            android:label="@string/title_sams_club"
+            android:parentActivityName="com.sutureexpress.dc.supplymanagement.SupplyHome"
+            android:theme="@style/AppTheme"  >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sutureexpress.dc.supplymanagement.SupplyHome" />
+        </activity>
+        <activity
+            android:name=".CurrentBoxCount"
+            android:label="Box Count Preview"
+            android:parentActivityName=".BoxCount"
+            android:theme="@style/AppTheme"  >
+            <intent-filter>
+                <action android:name="android.intent.action.SENDTO" />
+                <data android:scheme="mailto" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sutureexpress.dc.supplymanagement.BoxCount" />
+        </activity>
+        <activity
+            android:name=".DbTest"
+            android:label="SQLite Test"
+            android:parentActivityName=".SupplyHome"
+            android:theme="@style/AppTheme"  >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sutureexpress.dc.supplymanagement.SupplyHome" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".FireBox"
+            android:label="Firebase Box Data"
+            android:parentActivityName="com.sutureexpress.dc.supplymanagement.SupplyHome"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sutureexpress.dc.supplymanagement.SupplyHome" />
+        </activity>
+    </application>
+
+</manifest>

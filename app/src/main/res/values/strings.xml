@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">Supply Management</string>
+    <string name="welcome_msg">Welcome to DC Supply Management</string>
+    <string name="lbl_sams_count_btn">Count Sam\'s Club Supplies</string>
+    <string name="lbl_supply_count_btn">Count boxes, bags, tape, toner, etc..</string>
+    <string name="lbl_supply_recv_btn">Receive boxes and other packing supplies</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="action_app_info">App Info</string>
+    <string name="action_marshmallow_game">Let\'s Play a Game</string>
+    <string name="action_example">Supply Count (Packaging)</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_nav_drawer">Supply Management Nav</string>
+    <string name="title_section1">Box Count</string>
+    <string name="title_section2">Receive Boxes</string>
+    <string name="title_section3">Sam\'s Club Stuff</string>
+    <string name="navigation_drawer_open">nav drawer open</string>
+    <string name="navigation_drawer_close">nav drawer closed</string>
+    <string name="welcome_instructions">Choose a module below to get started:</string>
+    <string name="title_recv_supplies">DC Supply Receiving App</string>
+    <string name="title_box_count">Mamie\'s Box Count App</string>
+    <string name="title_sams_club">Sam\'s Club Supplies</string>
+    <string name="recv_app_msg1">This module will be used for verifying the quantity of: </string>
+    <string name="boxes_bullet">• Boxes</string>
+    <string name="bags_bullet">• Bags</string>
+    <string name="tape_bullet">• Packing Tape</string>
+    <string name="toner_bullet">• Toner Cartridges</string>
+    <string name="air_pillows_bullet">• Air Pillows</string>
+    <string name="fedex_boxes_bullet">• FedEx Boxes</string>
+    <string name="paper_bullet">• Printer Paper</string>
+    <string name="fedex_labels_bullet">• FedEx Labels</string>
+    <string name="bought_labels_bullet">• Bought Labels</string>
+    <string name="recv_app_msg2">physically received against the quantities
+     listed on the packing slip provided from the vendor. </string>
+    <string name="recv_app_msg3">Eventually this will be a tool
+     to digitize the packslip, make any necessary edits and email the edited packslip
+     to management.</string>
+    <string name="preview_email_info">Please click button on right to send email to management:</string>
+    <string name="taylor_gmail_primary">gilmourguru26@gmail.com</string>
+    <string name="kmac_email">kerry@sutureexpress.com</string>
+    <string name="dclead_email">dclead@sutureexpress.com</string>
+    <string name="taylor_gmail_dmb">dmbjimi26@gmail.com</string>
+    <string name="subject_constant">Box Count for: </string>
+
+    <string name="unit_1000">1000</string>
+    <string name="unit_500">500</string>
+    <string name="unit_130">130</string>
+    <string name="unit_125">125</string>
+    <string name="unit_120">120</string>
+    <string name="unit_25">25</string>
+    <string name="unit_20">20</string>
+    <string name="unit_15">15</string>
+    <string name="unit_rolls">ROLLS</string>
+    <string name="unit_fedex">20/BX</string>
+    <string name="unit_tape">CASES</string>
+
+    <string name="box1_id_num">COR06020</string>
+    <string name="box1_dim">6x6x6</string>
+    <string name="box1_price">$0.23</string>
+
+    <string name="box2_id_num">COR0830</string>
+    <string name="box2_dim">8x8x8</string>
+    <string name="box2_price">$0.35</string>
+
+    <string name="box3_id_num">R-16</string>
+    <string name="box3_dim">10x8x8</string>
+    <string name="box3_price">$0.43</string>
+
+    <string name="box4_id_num">COR12050</string>
+    <string name="box4_dim">12x12x6</string>
+    <string name="box4_price">$0.47</string>
+
+    <string name="box5_id_num">COR12060</string>
+    <string name="box5_dim">12x12x9</string>
+    <string name="box5_price">$0.60</string>
+
+    <string name="box6_id_num">R199</string>
+    <string name="box6_dim">15x7x5</string>
+    <string name="box6_price">$0.45</string>
+
+    <string name="box7_id_num">R204</string>
+    <string name="box7_dim">16x10x6</string>
+    <string name="box7_price">$0.66</string>
+
+    <string name="box8_id_num">COR18015K</string>
+    <string name="box8_dim">18x12x12</string>
+    <string name="box8_price">$0.75</string>
+
+    <string name="box9_id_num">COR22020</string>
+    <string name="box9_dim">22x13x10</string>
+    <string name="box9_price">$0.81</string>
+
+    <string name="box10_id_num">R589</string>
+    <string name="box10_dim">24x8x6</string>
+    <string name="box10_price">$0.77</string>
+
+    <string name="box11_id_num">R1017</string>
+    <string name="box11_dim">26x16x10</string>
+    <string name="box11_price">$1.26</string>
+
+    <string name="box12_id_num">COR26016S</string>
+    <string name="box12_dim">26x18x16</string>
+    <string name="box12_price">$1.50</string>
+
+    <string name="box13_id_num">COR26029</string>
+    <string name="box13_dim">26x18x29</string>
+    <string name="box13_price">$2.29</string>
+
+    <string name="box14_id_num">COR291116</string>
+    <string name="box14_dim">29x11.5x16.375</string>
+    <string name="box14_price">$1.22</string>
+
+    <string name="box15_id_num">COR30010</string>
+    <string name="box15_dim">30x18x19.875</string>
+    <string name="box15_price">$1.89</string>
+
+    <string name="box16_id_num">R1034</string>
+    <string name="box16_dim">31.4x21.6x12.6</string>
+    <string name="box16_price">$2.67</string>
+
+    <string name="box17_id_num">R177</string>
+    <string name="box17_dim">36x8x8</string>
+    <string name="box17_price">$1.77</string>
+
+    <string name="bag_small_id_num">PLY120211</string>
+    <string name="bag_small_dim">12x20x1.5 MIL</string>
+    <string name="bag_small_price">$51.66</string>
+
+    <string name="bag_med_id_num">PLY22030K</string>
+    <string name="bag_med_dim">22x30x.002</string>
+    <string name="bag_med_price">$75.95</string>
+
+    <string name="bag_lg_id_num">PLY30007A</string>
+    <string name="bag_lg_dim">30x36x.001</string>
+    <string name="bag_lg_price">$81.67</string>
+
+    <string name="fedex_md_id">Medium Box</string>
+    <string name="fedex_md_dim">FedEx Med</string>
+    <string name="fedex_bx_price">———</string>
+
+    <string name="fedex_lg_id">Large Box</string>
+    <string name="fedex_lg_dim">FedEx Lg</string>
+
+    <string name="air_pillow_id">MOT0074s</string>
+    <string name="pillow_dim">Air Pillow</string>
+    <string name="air_pillow_price">$161.52</string>
+
+    <string name="tape_id">33075</string>
+    <string name="tape_dim">Tape</string>
+    <string name="tape_price">$2.24</string>
+
+    <string name="box_count_report_title">Box Cycle Count</string>
+    <string name="count_date">Date Counted: </string>
+    <string name="vendor_id">Vendor Id</string>
+    <string name="thead_size">Size</string>
+    <string name="thead_count">Count</string>
+    <string name="thead_unit">Qty/Unit</string>
+    <string name="thead_price">Price</string>
+
+    <string name="db_test_msg">SQLite Test page...</string>
+    <string name="lbl_db_test_btn">Run SQLite Test...</string>
+    <string name="lbl_login_activity_btn">Login...</string>
+    <string name="pick_login">Log in with your choice of Social Media Auth:</string>
+    <string name="box_save">Save</string>
+    <string name="current_box_fb_count_title">Current Box Inventory</string>
+    <string name="firebaseBoxInventoryBtn">View current box inventory from the Firebase Realtime Database</string>
+    <string name="box_email_send">Send </string>
+
+
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "104387913181",
+    "firebase_url": "https://supply-management.firebaseio.com",
+    "project_id": "supply-management",
+    "storage_bucket": "supply-management.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104387913181:android:4fec225afc7c50c0",
+        "android_client_info": {
+          "package_name": "com.sutureexpress.dc.supplymanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104387913181-dpctdi64i6mbhqmovnp6l7q22e2ecjrq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sutureexpress.dc.supplymanagement",
+            "certificate_hash": "4C49D5E0A5C3AC9B09EF151E6EEF01966347073C"
+          }
+        },
+        {
+          "client_id": "104387913181-fk9q4d9feit4oaqk99ien4jurr3apdpm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcdalh-s9_VOgIzB-oZ0KKxABV2FB4elk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104387913181-fk9q4d9feit4oaqk99ien4jurr3apdpm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

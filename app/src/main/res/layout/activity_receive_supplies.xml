@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_receive_supplies"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sutureexpress.dc.supplymanagement.ReceiveSupplies">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:background="@color/colorPrimary54"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="@color/colorPrimary54" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recv_app_textview1"
+            android:layout_marginTop="8dp"
+            android:padding="12sp"
+            style="@style/ComfyFont"
+            android:text="@string/recv_app_msg1"
+            />
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            style="@style/BulletedList"
+            android:padding="8dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/boxes_bullet"
+                android:text="@string/boxes_bullet"
+                style="@style/ComfyFontBold"
+                android:layout_gravity="left"
+                android:paddingLeft="36dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/fedex_boxes_bullet"
+                android:text="@string/fedex_boxes_bullet"
+                style="@style/ComfyFontBold"
+                android:paddingLeft="36dp"
+                android:paddingRight="36dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/bags_bullet"
+                android:text="@string/bags_bullet"
+                style="@style/ComfyFontBold"
+                android:paddingLeft="36dp"
+                android:layout_gravity="left"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/paper_bullet"
+                android:text="@string/paper_bullet"
+                style="@style/ComfyFontBold"
+                android:paddingLeft="36dp"
+                android:paddingRight="36dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/tape_bullet"
+                android:text="@string/tape_bullet"
+                style="@style/ComfyFontBold"
+                android:paddingLeft="36dp"
+                android:layout_gravity="left"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/fedex_labels_bullet"
+                android:text="@string/fedex_labels_bullet"
+                style="@style/ComfyFontBold"
+                android:paddingLeft="36dp"
+                android:paddingRight="36dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/toner_bullet"
+                android:text="@string/toner_bullet"
+                style="@style/ComfyFontBold"
+                android:paddingLeft="36dp"
+                android:layout_gravity="left"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/bought_labels_bullet"
+                android:text="@string/bought_labels_bullet"
+                style="@style/ComfyFontBold"
+                android:paddingLeft="36dp"
+                android:paddingRight="36dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/air_pillows_bullet"
+                android:text="@string/air_pillows_bullet"
+                style="@style/ComfyFontBold"
+                android:paddingLeft="36dp"
+                android:paddingRight="36dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"/>
+
+        </GridLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recv_app_textview2"
+            android:layout_marginTop="8dp"
+            android:padding="12sp"
+            style="@style/ComfyFont"
+            android:text="@string/recv_app_msg2"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="@color/colorPrimary54" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recv_app_textview3"
+            android:padding="12sp"
+            style="@style/ComfyFontSmall"
+            android:text="@string/recv_app_msg3"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

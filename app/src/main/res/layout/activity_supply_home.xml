@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_supply_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary26"
+    android:orientation="vertical"
+    tools:context="com.sutureexpress.dc.supplymanagement.SupplyHome">
+    <include
+        android:id="@+id/app_bar_home"
+        layout="@layout/app_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/welcome_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:padding="12dp"
+            android:text="@string/welcome_msg"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/welcome_instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/colorMedium"
+        android:padding="8dp"
+        android:text="@string/welcome_instructions"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textColor="@color/colorHighlight"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="12dp">
+
+
+            <Button
+                android:id="@+id/supply_count_btn"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/ic_assessment_blue_500_48dp"
+                android:elevation="12dp"
+                android:onClick="openBoxCount"
+                android:padding="12dp"
+                android:text="@string/lbl_supply_count_btn" />
+
+            <Button
+                android:id="@+id/supply_recv_btn"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/ic_assignment_blue_500_48dp"
+                android:elevation="12dp"
+                android:onClick="openReceiveSupplies"
+                android:padding="12dp"
+                android:text="@string/lbl_supply_recv_btn" />
+
+            <Button
+                android:id="@+id/sams_count_btn"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/white"
+                android:drawableLeft="@mipmap/ic_sams_club"
+                android:elevation="12dp"
+                android:onClick="openSamsClub"
+                android:padding="12dp"
+                android:text="@string/lbl_sams_count_btn" />
+
+            <Button
+                android:id="@+id/db_test_btn"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/white"
+                android:drawableLeft="@mipmap/ic_firebase"
+                android:elevation="12dp"
+                android:onClick="openFireBox"
+                android:padding="12dp"
+                android:text="@string/firebaseBoxInventoryBtn" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dip"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorMedium"
+                android:padding="8dp"
+                android:text="@string/pick_login"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textColor="@color/colorHighlight"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="12dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="openGoogleLogIn"
+                    android:src="@mipmap/ic_g_color" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="openFbLogIn"
+                    android:src="@mipmap/ic_fb" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="openTwitterLogIn"
+                    android:src="@mipmap/ic_twitter" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="openEmailLogIn"
+                    android:src="@mipmap/ic_gmail" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
